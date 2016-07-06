@@ -1,0 +1,49 @@
+article {
+    display: inline-block;
+    width: 28%;
+    min-height: 250px;
+    max-height: 750px;
+    padding: 2%;
+    border-bottom: #404040 solid 0.25px;
+}
+article h2 {
+    font-size: 1.25em;
+    margin-top: -26px;
+    margin-left: 1px;
+    color: #e3e3e3;
+    line-height: 1.25em;
+    height: 1.25em;
+}
+article h3 {
+    font-size: 1.1em;
+    margin-top: 0px;
+    margin-left: 1px;
+    line-height: 1.1em;
+    height: 2.4em;
+}
+article p {
+    overflow: scroll;
+    width: 100%;
+    font-size: 0.9em;
+    text-align: justify;
+    margin-top: -15px;
+    line-height: 1.0em;
+    height: 10.25em;
+}
+img.port {
+    width: 98%;
+    align-content: center;
+}
+article a {
+    text-decoration: none;
+    color: #e74c3c;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    -webkit-border-radius: 6px;
+}
